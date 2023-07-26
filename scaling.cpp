@@ -38,9 +38,6 @@ void display(void)
     // Draw the square
     drawsquare(sx,sy);
 
-    glPopMatrix();
-    glEnd();
-
     glPopMatrix(); // Restore the previous transformation matrix
 
     glFlush();
